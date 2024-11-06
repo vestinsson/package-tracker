@@ -1,0 +1,20 @@
+/* src/components/Header/Header.css */
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+  }
+  
+  .header h1 {
+    color: #333;
+    font-size: 2em;
+  }
+  
+  @media (max-width: 768px) {
+    .header h1 {
+      font-size: 1.5em;
+    }
+  }
+  

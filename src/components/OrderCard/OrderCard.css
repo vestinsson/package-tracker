@@ -1,0 +1,30 @@
+/* src/components/OrderCard/OrderCard.css */
+.order-card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.status-badge {
+  padding: 5px 10px;
+  border-radius: 15px;
+  color: white;
+  font-size: 0.9em;
+}
+
+.order-details p {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.order-details strong {
+  color: #333;
+}
