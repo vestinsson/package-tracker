@@ -4,7 +4,10 @@
   padding: 0;
   box-sizing: border-box;
   background-color: gold;
-  background-image: "/package.png";
+  /*background-image: url('https://vestinsson.github.io/package-tracker/package.png');*/
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .app {
